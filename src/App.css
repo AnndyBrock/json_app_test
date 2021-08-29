@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  background-color: rgba(14, 0, 17, 0.11);
+}
+
+.App-body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.App-body > .right {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
+.App-body > .left {
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+.App-body > div > textarea {
+  width: 50%;
+  height: calc(65vh);
+}
